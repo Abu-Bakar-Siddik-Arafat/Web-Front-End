@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 1rem;
+    margin: 1rem;
+}
+
+.flt{
+    width: 10vw;
+    height: 10vw;
+    background-color: black;
+    color: white;
+
+}
+.left{
+    float:left
+    
+}
+
+.right{
+    float:right
+}
