@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    
+    margin: o auto 1rem;
+    text-align: center;
+    border: 1px solid #333;
+    border-radius: 2rem 2rem;
+    max-width: 600px;
+}
+button{
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+
+}
+#increment-btn{
+    background: darkred;
+}
+#increment-btn:hover{
+    background: dodgerblue;
+    cursor: pointer;
+}
+#deccrement-btn{
+    background: darkblue;
+}
+#deccrement-btn:hover{
+    background: dodgerblue;
+    cursor: pointer;
+}
