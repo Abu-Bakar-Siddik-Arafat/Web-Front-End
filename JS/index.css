@@ -37,3 +37,22 @@ button{
     background: dodgerblue;
     cursor: pointer;
 }
+
+#save-btn{
+    background-color: darkgreen;
+}
+
+#save-btn:hover{
+    cursor: pointer;
+    background: dodgerblue;
+}
+#reset-btn{
+    background-color: blueviolet;
+}
+#reset-btn:hover{
+    cursor: pointer;
+    background: dodgerblue;
+}
+/* .total{
+    column:2
+} */
