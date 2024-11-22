@@ -1,7 +1,14 @@
 let countEl= document.getElementById("count-el")
 let toEl=document.getElementById("total-el")
+let welcomeEl=document.getElementById("welcome-el")
 let count=0
-let tl=7
+let dash = " - "
+let mgs="Welcome!!!"
+console.log(mgs)
+welcomeEl.innerText=mgs
+function welcomeMgs(){
+    
+}
 function increment(){
     count+=1
     console.log(count)
@@ -15,9 +22,9 @@ function decrement(){
 }
 
 function save(){
-    
-    console.log(count)
-    toEl.innerText=count
+    let tCounter =" " + count + dash
+    toEl.innerText+= tCounter
+    console.log(tCounter)
 }
 
 function reset(){
